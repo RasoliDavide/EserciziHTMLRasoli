@@ -8,28 +8,37 @@ h1.hprimo
 img.i1
 {
 	width: 40%;
-	height: 200px;
+	height: 450px;
 	top: 0px;
 	left: 0px;
+	margin-left: 0px;
 }
 img.i2
 {
 	width: 55%;
-	height: 200px;
+	height: 450px;
 	top: 0px;
 	right: 0px;
+	margin-left: 0px;
 }
 img.i3
 {
 	width: 40%;
-	height: 200px;
+	height: 450px;
 	left: 0px;
 	bottom: 0px;
+	margin-left: 0px;
 }
 img.i4
 {
+	position: relative;
 	width: 55%;
-	height: 200px;
+	height: 450px;
 	right: 0px;
 	bottom: 0px;
+	margin-left: 0px;
+}
+div.d1
+{
+	padding: 0px 0px 0px 0px;
 }
