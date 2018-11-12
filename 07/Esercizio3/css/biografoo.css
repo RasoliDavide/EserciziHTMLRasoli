@@ -1,0 +1,35 @@
+h1.hprimo
+{
+	border: black solid 3px;
+	background-color: rgb(255, 153, 0);
+	text-align: center;
+	padding: 20px 10px 20px 10px;
+}
+img.i1
+{
+	width: 40%;
+	height: 200px;
+	top: 0px;
+	left: 0px;
+}
+img.i2
+{
+	width: 55%;
+	height: 200px;
+	top: 0px;
+	right: 0px;
+}
+img.i3
+{
+	width: 40%;
+	height: 200px;
+	left: 0px;
+	bottom: 0px;
+}
+img.i4
+{
+	width: 55%;
+	height: 200px;
+	right: 0px;
+	bottom: 0px;
+}

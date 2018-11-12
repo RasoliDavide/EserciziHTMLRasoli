@@ -10,15 +10,24 @@ h1.hsecondo
 	border: black solid 3px;
 	background-color: rgb(102, 153, 255);
 	margin-top: 10px;
-	position: absolute;
-	max-width: 40%;
 	padding: 10px 10px 10px 10px;
+	
 }
 h2.hterzo
 {
-	position: relative;
+	border: black solid 3px;
+	margin-top: 10px;
+	background-color: rgb(102, 153, 255);
+	padding: 10px 10px 10px 10px;
 }
-div.cont1
+img.imm1
 {
+	position:absolute;
+	right: 0px;
 	max-width: 45%;
+}
+div.c1
+{
+	float: left;
+	width: 45%;
 }
