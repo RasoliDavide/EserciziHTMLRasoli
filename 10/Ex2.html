@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head lang="it">
+		<meta charset="UTF8">
+		<title>Esercizio 10.2</title>
+		<meta name="author" content="Davide Rasoli">
+		<style>
+			article
+			{
+				height: 200px;
+				width: 200px;
+				margin: 200px 200px 200px 200px;
+			}
+			article.a1
+			{
+				background-color: red;
+				transition: transform 0.5s;
+			}
+			article.a1:hover
+			{
+				transform: scale(2, 2);
+			}
+			article.a2
+			{
+				background-color: red;
+			}
+			article.a2:hover
+			{
+				background-color: yellow;
+			}
+			article.a3
+			{
+				transition: transform 2s ease-in-out;
+				background-color: green;
+			}
+			article.a3:hover
+			{
+				transform: translate(200px, 0px);
+			}
+			article.a4
+			{
+				transition: transform 2s;
+				position: relative;
+			}
+			article.a4:hover
+			{
+				transform: translate(-500px, 0px);
+			}
+			p.p1
+			{
+				position: absolute;
+				top: 1500px;
+				left: 300px;
+			}
+			article.a5
+			{
+				transition: transform 3s;
+				background-color: gray;
+			}
+			article.a5:hover
+			{
+				transform: rotate(359deg)
+			}
+			article.a6
+			{
+				transition: transform 2s;
+				background-color: blue;
+			}
+			article.a6:hover
+			{
+				background-color: red;
+				transform: skew(50deg, 20deg);
+			}
+			</style>
+	</head>
+	<body>
+		<h1>Esercizio 10.2</h1>
+		<article class="a1">
+			Primo box
+		</article>
+		<article class="a2">
+			Secondo box
+		</article>
+		<article class="a3">
+			Terzo box
+		</article>
+		<p class="p1">Me ne vado</p>
+		<article class="a4">
+			Quarto box <br> Volete che me ne vado?
+			<img src="berlusconi.jpg">
+		</article>
+		<article class="a5">
+			Quinto box
+		</article>
+		<article class="a6">
+			Primo box
+		</article>
+	</body>
+</html>
