@@ -10,6 +10,7 @@
 				width: 25%;
 				list-style-type: none;
 				position: fixed;
+				margin: 0px 0px 0px 0px;
 			}
 			li
 			{
@@ -19,19 +20,28 @@
 			li:hover
 			{
 				color: white;
-				background-color: black;
+				background-color: lightgrey;
+
+			}
+		
+			a{
+				color: black;
 			}
 			iframe{
+				position: absolute;
+				width: 70%;
+				left: 25%;
 			}
 		</style>
 	</head>
 	<body>
 		<h1>Esercizio 11.2</h1>
 		<ul>
-			<li>Prima pagina</li>
-			<li>Seconda pagina</li>
-			<li>Terza pagina</li>
+			<li><a href="PrimaPagina.html" target="ifr">Prima pagina</a></li>
+			<li><a href="SecondaPagina.html" target="ifr">Seconda pagina</a></li>
+			<li><a href="TerzaPagina.html" target="ifr">Terza pagina</a></li>
 		</ul>
 		<iframe src="PrimaPagina.html" name="ifr"></iframe>
+		
 	</body>
 </html>
