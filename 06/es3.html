@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head lang="it">
+		<meta charset="UTF8">
+		<title>Esercizio 6.3</title>
+		<meta name="author" content="Davide Rasoli">
+		<style>
+			div.ex1 {
+				width:500px;
+				margin: auto;
+				border: 3px solid #73AD21;
+			}
+			div.ex2 {
+				max-width:500px;
+				margin: auto;
+				border: 3px solid #73AD21;
+			}
+			div.relative {
+				position: relative;
+				left: 30px;
+				border: 3px solid #73AD21;
+			}
+			p.non-relative{
+				position: static;
+				left: 30px;
+				border: 3px solid #73AD21;
+			}
+
+			div.fixed {
+				position: fixed;
+				bottom: 0;
+				right: 0;
+				width: 300px;
+				border: 3px solid #73AD21;
+			}
+
+			div.absolute {
+				position: absolute;
+				top: 80px;
+				right: 0;
+				width: 200px;
+				height: 100px;
+				border: 3px solid #73AD21;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Esercizio 6.3</h1>
+		<div class="ex1">This div element has width: 500px;</div>
+		<br>
+		<p>Che con width il border va fuori dallo schermo</p>
+		<div class="ex2">This div element has max-width: 500px;</div>
+		<p>Con max-width il border si adatta alla grandezza della finestra<br>
+		La max-width è più adatta al cellulare</p>
+		
+		</p>
+		<p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between
+		the two divs!</p>
+		<h2>position: relative;</h2>
+
+		<p class="non-relative">An element with position: relative; is positioned relative to its normal position:</p>
+
+		<div class="relative">
+			This div element has position: relative;
+		</div>
+		<div class="fixed">
+			This div element has position: fixed;
+		</div>
+
+		<div class="absolute">
+			This div element has position: absolute;
+		</div>
+		<p>Con position static le proprietà left, right, top e bottom vengono ignorate.<br>
+		Con relative invece vengono prese in considerazione<br>
+		Con fixed vengono prese in considerazione, e l'elemento rimane sempre visibile durante lo scroll della pagina<br>
+		Con absolute vengono prese in considerazione ma scrollando l'elemento non viene visualizzato sempre.
+	</body>
+</html>
