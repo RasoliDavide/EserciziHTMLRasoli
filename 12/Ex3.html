@@ -4,6 +4,7 @@
 		<meta charset="UTF8">
 		<title>Esercizio 12.3</title>
 		<meta name="author" content="Davide Rasoli">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
 			* { box-sizing: border-box;}
 
@@ -51,13 +52,39 @@
 				margin-top: 20px;
 				padding: 0;
 			}
+			.menu ul
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			.menu li
+			{
+				padding: 8px;
+				margin-bottom: 7px;
+				background-color: #33b5e5;
+				color: white;
+				box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+			}
+			.menu li:hover
+			{
+				background-color: #0099cc;
+			}
+			.headefoot
+			{
+				padding: 8px;
+				margin-bottom: 7px;
+				background-color: #33b5e5;
+				color: white;
+				box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+			}
 		</style>
 	</head>
 	<body>
 		<h1>
 			Esercizio 12.3
 		</h1>
-		<div class="d1 col-12 bordoneronomargine">
+		<div class="d1 col-12 bordonero nomargine">
 			<p class="col-12 bordonero nomargine">Div - Riga1: 100%</p>
 			<p class="col-3 bordonero"> 25%</p>
 			<p class="col-6 bordonero"> 50%</p>
@@ -76,6 +103,27 @@
 				Corpo della pagina
 			</article>
 			<footer class="col-12 bordorosso">
+				Questo footer occuperà il 100% della pagina
+			</footer>
+		</section>
+		<section class="col-12">
+			<header class="col-12 headefoot">
+				Questa intestazione occuperà il 100%
+			</header>
+			<section class="col-12">
+				<nav class="col-3 menu">
+					<ul>
+						<li>Pizza</li>
+						<li>Carne</li>
+						<li>Risotto alla milanese</li>
+						<li>Gnocco fritto</li>
+					</ul>
+				</nav>
+				<article class="col-9">
+					Corpo della pagina
+				</article>
+			</section>
+			<footer class="col-12 headefoot">
 				Questo footer occuperà il 100% della pagina
 			</footer>
 		</section>
